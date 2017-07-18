@@ -1,5 +1,12 @@
-window.onload = function(){
+$(function(){   
+// // window.onload = function(){
 //     alert("Olá!");
-    console.log("lalalalala");
-    document.getElementById('fp')
+//     console.log('lalalalala');
+    
+// }
+})
+
+function changeToBlue(){
+    // document.getElementById('fp').className='bluecolor';
+    $('#fp').addclass('bluecolor')
 }
