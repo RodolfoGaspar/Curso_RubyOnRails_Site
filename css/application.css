@@ -1,0 +1,15 @@
+div#main{
+    background:greenyellow;
+    border: 3px solid black;
+    padding: 10px;
+    margin: auto;
+    width: 700px;
+}
+
+div#main h1#tilttle {
+    color: white;
+}
+
+.special{
+    color: #cd4f39;
+}
