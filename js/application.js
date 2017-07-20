@@ -1,12 +1,8 @@
 $(function(){   
-// // window.onload = function(){
-//     alert("Olá!");
-//     console.log('lalalalala');
-    
-// }
-})
+    $('#changeBlueLink').click(changeColor);
+});
 
-function changeToBlue(){
-    // document.getElementById('fp').className='bluecolor';
-    $('#fp').addclass('bluecolor')
+function changeColor(){
+    var color_hexa=$('#color').val()
+    $('#fp').css('color','#'+color_hexa)
 }
